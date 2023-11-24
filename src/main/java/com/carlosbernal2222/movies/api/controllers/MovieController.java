@@ -20,6 +20,7 @@ public class MovieController {
 
 
     @GetMapping
+
     public ResponseEntity<List<Movie>> getAllMovies(){
         return new ResponseEntity<List<Movie>>(movieService.allMovies(), HttpStatus.OK);
     }
@@ -27,5 +28,18 @@ public class MovieController {
     @GetMapping("/{imdbId}")
     public  ResponseEntity<Optional<Movie>> getSingleMovie(@PathVariable String imdbId){
         return new ResponseEntity<Optional<Movie>>(movieService.singleMovie(imdbId), HttpStatus.OK);
+    }
+
+    @GetMapping("/search")
+    public ResponseEntity<List<Movie>> searchMovies(@RequestParam String title) {
+        return new ResponseEntity<>(movieService.searchMovies(title), HttpStatus.OK);
+    }
+
+    @GetMapping("/advanced-search")
+    public ResponseEntity<List<Movie>> advancedSearch(
+            @RequestParam(required = false) String genre,
+            @RequestParam(required = false) String releaseDate) {
+        List<Movie> movies = movieService.advancedSearch(genre, releaseDate);
+        return ResponseEntity.ok(movies);
     }
 }
