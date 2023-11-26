@@ -25,10 +25,10 @@ public class MovieController {
     }
 
     @GetMapping("/{imdbId}")
-    public  ResponseEntity<Optional<Movie>> getSingleMovie(@PathVariable String imdbId){
-        return new ResponseEntity<Optional<Movie>>(movieService.singleMovie(imdbId), HttpStatus.OK);
+    public ResponseEntity<Movie> getSingleMovie(@PathVariable String imdbId){
+        Movie movie = movieService.singleMovie(imdbId);
+        return ResponseEntity.ok(movie);
     }
-
     @GetMapping("/search")
     public ResponseEntity<List<Movie>> searchMovies(@RequestParam String title) {
         return new ResponseEntity<>(movieService.searchMovies(title), HttpStatus.OK);

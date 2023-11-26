@@ -19,8 +19,11 @@ public class MovieService {
         return movieRepository.findAll();
     }
 
-    public Optional<Movie> singleMovie(String imdbId){
-        return movieRepository.findMovieByImdbId(imdbId);
+    public Movie singleMovie(String imdbId){
+        Movie movie = movieRepository.findMovieByImdbId(imdbId)
+                .orElseThrow(() -> new RuntimeException("Movie not found"));
+        movie.setViews(movie.getViews() + 1);
+        return movieRepository.save(movie);
     }
 
     public List<Movie> searchMovies(String title) {
@@ -35,5 +38,6 @@ public class MovieService {
 
         return movies;
     }
+
 
 }

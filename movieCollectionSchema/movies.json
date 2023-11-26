@@ -24,7 +24,8 @@
       "https://image.tmdb.org/t/p/original/2wPJIFrBhzzAP8oHDOlShMkERH6.jpg",
       "https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt1630029",
@@ -49,7 +50,8 @@
       "https://image.tmdb.org/t/p/original/rb9IHprKNoSKqatP2vr25unUDSu.jpg",
       "https://image.tmdb.org/t/p/original/37ZswIuRQcRBN7kHij5MBjzRMRt.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt8760708",
@@ -74,7 +76,8 @@
       "https://image.tmdb.org/t/p/original/txQLFd6rfQrskQhFENkS1jElptt.jpg",
       "https://image.tmdb.org/t/p/original/dC4tj1ONdlZ2TWv4XD2SA1KUnJN.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt11116912",
@@ -99,7 +102,8 @@
       "https://image.tmdb.org/t/p/original/6jdlppcnGi3XuJamfs4Vl7HyxB.jpg",
       "https://image.tmdb.org/t/p/original/uIq83ogs7QBEWi1aqmUrdDIH61m.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt6443346",
@@ -124,7 +128,8 @@
       "https://image.tmdb.org/t/p/original/9inNotReApz0n50WvWbrt0n1cbL.jpg",
       "https://image.tmdb.org/t/p/original/pSOuqtJmdh7aI1yiK7M8e0PmbPC.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt0499549",
@@ -150,7 +155,8 @@
       "https://image.tmdb.org/t/p/original/chauy3iJaZtrMbTr72rgNmOZwo3.jpg",
       "https://image.tmdb.org/t/p/original/mYJkJ7YxJsUNI1nAOOUOpRN2auC.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt3447590",
@@ -175,7 +181,8 @@
       "https://image.tmdb.org/t/p/original/7iXsB1r9IK17ZFShqoxcHKQ7dLp.jpg",
       "https://image.tmdb.org/t/p/original/dwiRYDLcFyDOkgkSc1JFtTr6Kdk.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt9114286",
@@ -200,7 +207,8 @@
       "https://image.tmdb.org/t/p/original/8sMmAmN2x7mBiNKEX2o0aOTozEB.jpg",
       "https://image.tmdb.org/t/p/original/geI3Mk7nehX1kvyIY3K5ajaiNfI.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt10298840",
@@ -226,7 +234,8 @@
       "https://image.tmdb.org/t/p/original/3oie0kID8SNCjkqN6Raweg5dJa.jpg",
       "https://image.tmdb.org/t/p/original/zgFldVKON1Nxp8ui7HVABGKDQKM.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   },
   {
     "imdbId": "tt8093700",
@@ -251,6 +260,7 @@
       "https://image.tmdb.org/t/p/original/7zQJYV02yehWrQN6NjKsBorqUUS.jpg",
       "https://image.tmdb.org/t/p/original/rdDL4y7BxGyXFEDJgAG4lz89bG2.jpg"
     ],
-    "reviewIds": []
+    "reviewIds": [],
+    "views": 0
   }
 ]

@@ -21,6 +21,9 @@ public class Watchlist {
     private String userId;
     private List<String> movieIds;
 
-    public <E> Watchlist(String userId, ArrayList<E> es) {
+    public Watchlist(String userId) {
+        this.userId = userId;
+        this.movieIds = new ArrayList<>(); // Initialize the movieIds list
     }
+
 }

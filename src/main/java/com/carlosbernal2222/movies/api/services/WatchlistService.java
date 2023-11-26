@@ -19,7 +19,7 @@ public class WatchlistService {
 
     public Watchlist addMovieToWatchlist(String userId, String movieId) {
         Watchlist watchlist = watchlistRepository.findByUserId(userId)
-                .orElse(new Watchlist(userId, new ArrayList<>()));
+                .orElse(new Watchlist(userId)); // Use the modified constructor
 
         if (!watchlist.getMovieIds().contains(movieId)) {
             watchlist.getMovieIds().add(movieId);
@@ -29,5 +29,18 @@ public class WatchlistService {
         return watchlist;
     }
 
-    // Methods for removing movies, etc.
+    public Watchlist removeMovieFromWatchlist(String userId, String movieId) {
+        Watchlist watchlist = watchlistRepository.findByUserId(userId)
+                .orElseGet(() -> {
+                    Watchlist newWatchlist = new Watchlist();
+                    newWatchlist.setUserId(userId);
+                    newWatchlist.setMovieIds(new ArrayList<>());
+                    return newWatchlist;
+                });
+
+        watchlist.getMovieIds().remove(movieId); // Remove the movie ID
+        watchlistRepository.save(watchlist); // Save the updated watchlist
+
+        return watchlist;
+    }
 }

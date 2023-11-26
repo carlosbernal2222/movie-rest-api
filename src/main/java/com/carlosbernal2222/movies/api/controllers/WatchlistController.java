@@ -25,5 +25,9 @@ public class WatchlistController {
         return ResponseEntity.ok(updatedWatchlist);
     }
 
-    // Endpoints for removing movies, etc.
+    @PostMapping("/{userId}/remove/{movieId}")
+    public ResponseEntity<Watchlist> removeMovieFromWatchlist(@PathVariable String userId, @PathVariable String movieId) {
+        Watchlist updatedWatchlist = watchlistService.removeMovieFromWatchlist(userId, movieId);
+        return ResponseEntity.ok(updatedWatchlist);
+    }
 }
