@@ -25,7 +25,9 @@
       "https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt1630029",
@@ -51,7 +53,9 @@
       "https://image.tmdb.org/t/p/original/37ZswIuRQcRBN7kHij5MBjzRMRt.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt8760708",
@@ -77,7 +81,9 @@
       "https://image.tmdb.org/t/p/original/dC4tj1ONdlZ2TWv4XD2SA1KUnJN.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt11116912",
@@ -103,7 +109,9 @@
       "https://image.tmdb.org/t/p/original/uIq83ogs7QBEWi1aqmUrdDIH61m.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt6443346",
@@ -129,7 +137,9 @@
       "https://image.tmdb.org/t/p/original/pSOuqtJmdh7aI1yiK7M8e0PmbPC.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt0499549",
@@ -156,7 +166,9 @@
       "https://image.tmdb.org/t/p/original/mYJkJ7YxJsUNI1nAOOUOpRN2auC.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt3447590",
@@ -182,7 +194,9 @@
       "https://image.tmdb.org/t/p/original/dwiRYDLcFyDOkgkSc1JFtTr6Kdk.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt9114286",
@@ -208,7 +222,9 @@
       "https://image.tmdb.org/t/p/original/geI3Mk7nehX1kvyIY3K5ajaiNfI.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt10298840",
@@ -235,7 +251,9 @@
       "https://image.tmdb.org/t/p/original/zgFldVKON1Nxp8ui7HVABGKDQKM.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   },
   {
     "imdbId": "tt8093700",
@@ -261,6 +279,8 @@
       "https://image.tmdb.org/t/p/original/rdDL4y7BxGyXFEDJgAG4lz89bG2.jpg"
     ],
     "reviewIds": [],
-    "views": 0
+    "views": 0,
+    "averageRating": 0,
+    "ratingCount": 0
   }
 ]
