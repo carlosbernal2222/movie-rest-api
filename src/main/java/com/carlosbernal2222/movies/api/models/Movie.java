@@ -30,7 +30,6 @@ public class Movie {
     private double averageRating;
     private int ratingCount;
 
-
     @DocumentReference
     private List<Review> reviewIds;
 

@@ -25,7 +25,6 @@ public class RatingService {
 
         if (existingRating.isPresent()) {
             // User has already rated this movie
-            // You can either throw an exception or update the existing rating
             throw new RuntimeException("User has already rated this movie.");
         } else {
             // Add new rating
@@ -33,9 +32,15 @@ public class RatingService {
             rating.setMovieId(movieId);
             rating.setUserId(userId);
             rating.setScore(score);
-            return ratingRepository.save(rating);
+            ratingRepository.save(rating);
+
+            // Update movie rating
+            updateMovieRating(movieId);
+
+            return rating;
         }
     }
+
 
     private void updateMovieRating(String movieId) {
         try {
